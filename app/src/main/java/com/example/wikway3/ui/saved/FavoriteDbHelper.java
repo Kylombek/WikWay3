@@ -1,4 +1,4 @@
-package com.example.wikway1.ui.saved;
+package com.example.wikway3.ui.saved;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.example.wikway1.JobAd;
+import com.example.wikway3.JobAd;
 
 import java.util.ArrayList;
 import java.util.List;

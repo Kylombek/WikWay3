@@ -1,4 +1,4 @@
-package com.example.wikway1.utils;
+package com.example.wikway3.utils;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 
-import com.example.wikway1.MainActivity;
+import com.example.wikway3.MainActivity;
 import com.example.wikway1.R;
 
 public class NoInternet extends Activity {

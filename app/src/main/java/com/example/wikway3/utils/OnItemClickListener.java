@@ -1,4 +1,4 @@
-package com.example.wikway1.utils;
+package com.example.wikway3.utils;
 
 public interface OnItemClickListener {
     void onItemClick(int pos);

@@ -1,7 +1,6 @@
-package com.example.wikway1.ui.home;
+package com.example.wikway3.ui.home;
 
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,17 +14,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.wikway1.App;
-import com.example.wikway1.JobAd;
+import com.example.wikway3.App;
+import com.example.wikway3.JobAd;
 import com.example.wikway1.R;
-import com.example.wikway1.ui.VacancyAdapter;
-import com.example.wikway1.utils.HttpHandler;
-import com.example.wikway1.utils.OnItemClickListener;
-import com.example.wikway1.utils.RecyclerViewAdapter;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.example.wikway3.ui.VacancyAdapter;
+import com.example.wikway3.utils.OnItemClickListener;
 
 import java.util.ArrayList;
 
@@ -67,6 +60,13 @@ public class HomeFragment extends Fragment {
                 Intent intent = new Intent(getContext(), GalleryActivity.class);
                 intent.putExtra("image_url", adapter.jobs.get(pos).getImageLink());
                 intent.putExtra("image_name", adapter.jobs.get(pos).getTitle());
+                intent.putExtra("image_artDerStelle", adapter.jobs.get(pos).getArtDerStelle());
+                intent.putExtra("image_anschreiben", adapter.jobs.get(pos).getAnschreiben());
+                intent.putExtra("image_abteilung", adapter.jobs.get(pos).getAbteilung());
+                intent.putExtra("image_qualifizirung", adapter.jobs.get(pos).getQualifizirung());
+                intent.putExtra("image_anforderung", adapter.jobs.get(pos).getAnforderung());
+                intent.putExtra("image_strasse", adapter.jobs.get(pos).getSrasse());
+                intent.putExtra("image_email", adapter.jobs.get(pos).getEmail());
                 startActivity(intent);
             }
 

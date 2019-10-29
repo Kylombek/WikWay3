@@ -4,6 +4,7 @@
     <string name="SEARCH">This is Search Page!</string>
     <string name="noInet">Internet connection is failed.</string>
     <string name="retry">Retry</string>
+    <string name="was_added">Stelle aktiv bis:</string>
     <string name="aboutUs">This app was delivered by Dandaev Alybek, Ergeshov Shabdan, Kasymbekov Nursultan and Mavlianov Kylymbek
     as a study project for Professor Wasinger.</string>
 </resources>

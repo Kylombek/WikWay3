@@ -1,4 +1,4 @@
-package com.example.wikway1;
+package com.example.wikway3;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,12 +9,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.wikway1.ui.AboutUsActivity;
-import com.example.wikway1.ui.home.HomeFragment;
-import com.example.wikway1.ui.saved.FavoriteDbHelper;
-import com.example.wikway1.ui.saved.SavedFragment;
-import com.example.wikway1.ui.search.SearchFragment;
-import com.example.wikway1.utils.NoInternet;
+import com.example.wikway1.R;
+import com.example.wikway3.ui.AboutUsActivity;
+import com.example.wikway3.ui.home.HomeFragment;
+import com.example.wikway3.ui.saved.FavoriteDbHelper;
+import com.example.wikway3.ui.saved.SavedFragment;
+import com.example.wikway3.ui.search.SearchFragment;
+import com.example.wikway3.utils.NoInternet;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.wikway1.ui;
+package com.example.wikway3.ui;
 
 import android.app.Activity;
 import android.os.Bundle;

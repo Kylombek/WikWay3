@@ -1,4 +1,4 @@
-package com.example.wikway1.utils;
+package com.example.wikway3.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,9 +15,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.bumptech.glide.Glide;
-import com.example.wikway1.JobAd;
+import com.example.wikway3.JobAd;
 import com.example.wikway1.R;
-import com.example.wikway1.ui.home.GalleryActivity;
+import com.example.wikway3.ui.home.GalleryActivity;
 
 import java.util.ArrayList;
 

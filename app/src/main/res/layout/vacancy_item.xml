@@ -12,36 +12,85 @@
     android:layout_marginEnd="8dp"
     android:background="#FFFFFF"
     >
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
+            android:id="@+id/companyLogoInList"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:id="@+id/companyLogoInList"
-            android:src="@mipmap/ic_launcher"/>
+            android:adjustViewBounds="false"
+            android:layout_marginStart="255dp"
+            android:src="@mipmap/ic_launcher" />
 
         <TextView
+        android:id="@+id/jobNameTextView"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:padding="6dp"
+        android:layout_marginStart="4dp"
+        android:text="Programmer"
+        android:textColor="#000"
+        android:textSize="17sp" />
+        <TextView
+            android:id="@+id/artDerStelleTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Canada"
-            android:id="@+id/jobNameTextView"
-            android:layout_toEndOf="@+id/companyLogoInList"
-            android:textColor="#000"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="30dp"
-            android:textSize="17sp"/>
+            android:padding="6dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="4dp"
+            android:textColor="#575555"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/ortTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginStart="4dp"
+            android:textStyle="italic"
+            android:text="Ort"
+            android:textColor="#292828"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/wasadded"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginStart="173dp"
+            android:text="@string/was_added"
+            android:textColor="#20378F"
+            android:textSize="8sp" />
+        <TextView
+            android:id="@+id/deadlineTextView"
+            android:layout_width="80dp"
+            android:layout_height="25sp"
+            android:paddingBottom="6dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="2dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginStart="173dp"
+            android:text="12.12.12"
+            android:textStyle="bold"
+            android:textColor="#20378F"
+            android:textSize="10sp" />
+
         <ImageView
             android:id="@+id/ivFavorite"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_gravity = "left"
+            android:layout_marginTop="82dp"
+            android:layout_gravity="left"
             android:clickable="true"
-            android:src="@drawable/ic_bookmark_border_black_24dp"/>
+            android:src="@drawable/ic_bookmark_border_black_24dp" />
+
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
