@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WikWay</string>
+    <string name="SAVED">This is Saved Page!</string>
+    <string name="SEARCH">This is Search Page!</string>
+    <string name="noInet">Internet connection is failed.</string>
+    <string name="retry">Retry</string>
+    <string name="aboutUs">This app was delivered by Dandaev Alybek, Ergeshov Shabdan, Kasymbekov Nursultan and Mavlianov Kylymbek
+    as a study project for Professor Wasinger.</string>
+</resources>
